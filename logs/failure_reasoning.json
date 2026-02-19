@@ -1,0 +1,938 @@
+[
+  {
+    "step": 50,
+    "input_metrics": {
+      "avg_load": 0.6301656536243931,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.97980664944795,
+      "avg_latency_ms": 80.77340220819536,
+      "rlf_rate": 0.0,
+      "rsrp": -83.39192804702775
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.NORMAL",
+      "reliability": "ReliabilityState.WARNING",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "BALANCED",
+    "reasoning": "Rule-based: Conditions normal.",
+    "shield_active": false,
+    "applied_params": {
+      "handover_margin_db": 3.0,
+      "time_to_trigger_s": 0.16
+    }
+  },
+  {
+    "step": 100,
+    "input_metrics": {
+      "avg_load": 0.6301656536243931,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.96369710754495,
+      "avg_latency_ms": 64.4381676120743,
+      "rlf_rate": 0.0,
+      "rsrp": -81.01695672950504
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.NORMAL",
+      "reliability": "ReliabilityState.WARNING",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "BALANCED",
+    "reasoning": "Rule-based: Conditions normal.",
+    "shield_active": false,
+    "applied_params": {
+      "handover_margin_db": 3.0,
+      "time_to_trigger_s": 0.16
+    }
+  },
+  {
+    "step": 150,
+    "input_metrics": {
+      "avg_load": 0.6301656536243931,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.93783822833294,
+      "avg_latency_ms": 103.43551684804589,
+      "rlf_rate": 0.0,
+      "rsrp": -83.81652000806801
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.NORMAL",
+      "reliability": "ReliabilityState.WARNING",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "BALANCED",
+    "reasoning": "Rule-based: Conditions normal.",
+    "shield_active": false,
+    "applied_params": {
+      "handover_margin_db": 3.0,
+      "time_to_trigger_s": 0.16
+    }
+  },
+  {
+    "step": 200,
+    "input_metrics": {
+      "avg_load": 0.6301656536243931,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.91787237584138,
+      "avg_latency_ms": 79.86340996616771,
+      "rlf_rate": 0.0,
+      "rsrp": -83.68071599833046
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.NORMAL",
+      "reliability": "ReliabilityState.WARNING",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "BALANCED",
+    "reasoning": "Rule-based: Conditions normal.",
+    "shield_active": false,
+    "applied_params": {
+      "handover_margin_db": 3.0,
+      "time_to_trigger_s": 0.16
+    }
+  },
+  {
+    "step": 250,
+    "input_metrics": {
+      "avg_load": 0.6301656536243931,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.88558149170446,
+      "avg_latency_ms": 129.16353654770776,
+      "rlf_rate": 0.0,
+      "rsrp": -79.83387948039571
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.NORMAL",
+      "reliability": "ReliabilityState.WARNING",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "BALANCED",
+    "reasoning": "Rule-based: Conditions normal.",
+    "shield_active": false,
+    "applied_params": {
+      "handover_margin_db": 3.0,
+      "time_to_trigger_s": 0.16
+    }
+  },
+  {
+    "step": 300,
+    "input_metrics": {
+      "avg_load": 0.6301656536243931,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.87224878445112,
+      "avg_latency_ms": 53.33082901329808,
+      "rlf_rate": 0.0,
+      "rsrp": -82.32815983069744
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.NORMAL",
+      "reliability": "ReliabilityState.WARNING",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "BALANCED",
+    "reasoning": "Rule-based: Conditions normal.",
+    "shield_active": false,
+    "applied_params": {
+      "handover_margin_db": 3.0,
+      "time_to_trigger_s": 0.16
+    }
+  },
+  {
+    "step": 350,
+    "input_metrics": {
+      "avg_load": 0.6301656536243931,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.86298142276112,
+      "avg_latency_ms": 37.06944676000629,
+      "rlf_rate": 0.0,
+      "rsrp": -78.99410550114635
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.NORMAL",
+      "reliability": "ReliabilityState.SAFE",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "BALANCED",
+    "reasoning": "Rule-based: Conditions normal.",
+    "shield_active": false,
+    "applied_params": {
+      "handover_margin_db": 3.0,
+      "time_to_trigger_s": 0.16
+    }
+  },
+  {
+    "step": 400,
+    "input_metrics": {
+      "avg_load": 0.6301656536243931,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.85478361985996,
+      "avg_latency_ms": 32.79121160469147,
+      "rlf_rate": 0.0,
+      "rsrp": -80.9676284091096
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.NORMAL",
+      "reliability": "ReliabilityState.SAFE",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "BALANCED",
+    "reasoning": "Rule-based: Conditions normal.",
+    "shield_active": false,
+    "applied_params": {
+      "handover_margin_db": 3.0,
+      "time_to_trigger_s": 0.16
+    }
+  },
+  {
+    "step": 450,
+    "input_metrics": {
+      "avg_load": 0.6301656536243931,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.82092613018746,
+      "avg_latency_ms": 135.42995868999557,
+      "rlf_rate": 0.0,
+      "rsrp": -81.962764157245
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.NORMAL",
+      "reliability": "ReliabilityState.WARNING",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "BALANCED",
+    "reasoning": "Rule-based: Conditions normal.",
+    "shield_active": false,
+    "applied_params": {
+      "handover_margin_db": 3.0,
+      "time_to_trigger_s": 0.16
+    }
+  },
+  {
+    "step": 500,
+    "input_metrics": {
+      "avg_load": 0.6301656536243931,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.82092613018746,
+      "avg_latency_ms": 0.0,
+      "rlf_rate": 0.0,
+      "rsrp": -81.03683758723308
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.NORMAL",
+      "reliability": "ReliabilityState.SAFE",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "BALANCED",
+    "reasoning": "Rule-based: Conditions normal.",
+    "shield_active": false,
+    "applied_params": {
+      "handover_margin_db": 3.0,
+      "time_to_trigger_s": 0.16
+    }
+  },
+  {
+    "step": 550,
+    "input_metrics": {
+      "avg_load": 0.20165300915980583,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.82092613018746,
+      "avg_latency_ms": 0.0,
+      "rlf_rate": 0.0,
+      "rsrp": -120.0
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.NORMAL",
+      "reliability": "ReliabilityState.DANGER",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "SURVIVAL",
+    "reasoning": "Rule-based: Reliability DANGER detected.",
+    "shield_active": false,
+    "applied_params": {
+      "handover_margin_db": 0.0,
+      "time_to_trigger_s": 0.0
+    }
+  },
+  {
+    "step": 600,
+    "input_metrics": {
+      "avg_load": 0.0,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.80820667041885,
+      "avg_latency_ms": 50.87783907439321,
+      "rlf_rate": 0.0,
+      "rsrp": -101.51546887894942
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.LOW",
+      "reliability": "ReliabilityState.WARNING",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "SURVIVAL",
+    "reasoning": "Rule-based: Conditions normal.",
+    "shield_active": true,
+    "applied_params": {
+      "handover_margin_db": 0.0,
+      "time_to_trigger_s": 0.0
+    }
+  },
+  {
+    "step": 650,
+    "input_metrics": {
+      "avg_load": 0.0,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.78040137316636,
+      "avg_latency_ms": 111.22118900993664,
+      "rlf_rate": 0.0,
+      "rsrp": -98.58840614662023
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.LOW",
+      "reliability": "ReliabilityState.WARNING",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "SURVIVAL",
+    "reasoning": "Rule-based: Conditions normal.",
+    "shield_active": true,
+    "applied_params": {
+      "handover_margin_db": 0.0,
+      "time_to_trigger_s": 0.0
+    }
+  },
+  {
+    "step": 700,
+    "input_metrics": {
+      "avg_load": 0.0,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.75764326880845,
+      "avg_latency_ms": 91.03241743162933,
+      "rlf_rate": 0.0,
+      "rsrp": -100.94317856942455
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.LOW",
+      "reliability": "ReliabilityState.WARNING",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "BALANCED",
+    "reasoning": "Rule-based: Conditions normal.",
+    "shield_active": false,
+    "applied_params": {
+      "handover_margin_db": 3.0,
+      "time_to_trigger_s": 0.16
+    }
+  },
+  {
+    "step": 750,
+    "input_metrics": {
+      "avg_load": 0.0,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.7234106449244,
+      "avg_latency_ms": 136.93049553624775,
+      "rlf_rate": 0.0,
+      "rsrp": -97.87741308667987
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.LOW",
+      "reliability": "ReliabilityState.WARNING",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "BALANCED",
+    "reasoning": "Rule-based: Conditions normal.",
+    "shield_active": false,
+    "applied_params": {
+      "handover_margin_db": 3.0,
+      "time_to_trigger_s": 0.16
+    }
+  },
+  {
+    "step": 800,
+    "input_metrics": {
+      "avg_load": 0.0,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.7000247875078,
+      "avg_latency_ms": 93.54342966642203,
+      "rlf_rate": 0.0,
+      "rsrp": -101.3227021336487
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.LOW",
+      "reliability": "ReliabilityState.WARNING",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "BALANCED",
+    "reasoning": "Rule-based: Conditions normal.",
+    "shield_active": false,
+    "applied_params": {
+      "handover_margin_db": 3.0,
+      "time_to_trigger_s": 0.16
+    }
+  },
+  {
+    "step": 850,
+    "input_metrics": {
+      "avg_load": 0.0,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.7000247875078,
+      "avg_latency_ms": 0.0,
+      "rlf_rate": 0.0,
+      "rsrp": -104.40716959818802
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.LOW",
+      "reliability": "ReliabilityState.SAFE",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "BALANCED",
+    "reasoning": "Rule-based: Conditions normal.",
+    "shield_active": false,
+    "applied_params": {
+      "handover_margin_db": 3.0,
+      "time_to_trigger_s": 0.16
+    }
+  },
+  {
+    "step": 900,
+    "input_metrics": {
+      "avg_load": 0.0,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.7000247875078,
+      "avg_latency_ms": 0.0,
+      "rlf_rate": 0.0,
+      "rsrp": -97.15717489980815
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.LOW",
+      "reliability": "ReliabilityState.SAFE",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "BALANCED",
+    "reasoning": "Rule-based: Conditions normal.",
+    "shield_active": false,
+    "applied_params": {
+      "handover_margin_db": 3.0,
+      "time_to_trigger_s": 0.16
+    }
+  },
+  {
+    "step": 950,
+    "input_metrics": {
+      "avg_load": 0.0,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.68897040053652,
+      "avg_latency_ms": 44.217547885116666,
+      "rlf_rate": 0.0,
+      "rsrp": -90.86907990431048
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.LOW",
+      "reliability": "ReliabilityState.SAFE",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "BALANCED",
+    "reasoning": "Rule-based: Conditions normal.",
+    "shield_active": false,
+    "applied_params": {
+      "handover_margin_db": 3.0,
+      "time_to_trigger_s": 0.16
+    }
+  },
+  {
+    "step": 1000,
+    "input_metrics": {
+      "avg_load": 0.0,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.65717185901408,
+      "avg_latency_ms": 127.19416608973351,
+      "rlf_rate": 0.0,
+      "rsrp": -89.85092490289608
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.LOW",
+      "reliability": "ReliabilityState.WARNING",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "BALANCED",
+    "reasoning": "Rule-based: Conditions normal.",
+    "shield_active": false,
+    "applied_params": {
+      "handover_margin_db": 3.0,
+      "time_to_trigger_s": 0.16
+    }
+  },
+  {
+    "step": 1050,
+    "input_metrics": {
+      "avg_load": 0.0,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.59987336322621,
+      "avg_latency_ms": 229.19398315152523,
+      "rlf_rate": 0.0,
+      "rsrp": -89.93461766952302
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.LOW",
+      "reliability": "ReliabilityState.WARNING",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "BALANCED",
+    "reasoning": "Rule-based: Conditions normal.",
+    "shield_active": false,
+    "applied_params": {
+      "handover_margin_db": 3.0,
+      "time_to_trigger_s": 0.16
+    }
+  },
+  {
+    "step": 1100,
+    "input_metrics": {
+      "avg_load": 0.0,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.57936551616515,
+      "avg_latency_ms": 82.03138824425494,
+      "rlf_rate": 0.0,
+      "rsrp": -98.05891369598264
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.LOW",
+      "reliability": "ReliabilityState.WARNING",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "BALANCED",
+    "reasoning": "Rule-based: Conditions normal.",
+    "shield_active": false,
+    "applied_params": {
+      "handover_margin_db": 3.0,
+      "time_to_trigger_s": 0.16
+    }
+  },
+  {
+    "step": 1150,
+    "input_metrics": {
+      "avg_load": 0.0,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.56177740839934,
+      "avg_latency_ms": 70.3524310631943,
+      "rlf_rate": 0.0,
+      "rsrp": -100.10114844500214
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.LOW",
+      "reliability": "ReliabilityState.WARNING",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "BALANCED",
+    "reasoning": "Rule-based: Conditions normal.",
+    "shield_active": false,
+    "applied_params": {
+      "handover_margin_db": 3.0,
+      "time_to_trigger_s": 0.16
+    }
+  },
+  {
+    "step": 1200,
+    "input_metrics": {
+      "avg_load": 0.0,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.55431186844822,
+      "avg_latency_ms": 29.86215980444891,
+      "rlf_rate": 0.0,
+      "rsrp": -102.7411763217458
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.LOW",
+      "reliability": "ReliabilityState.SAFE",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "BALANCED",
+    "reasoning": "Rule-based: Conditions normal.",
+    "shield_active": false,
+    "applied_params": {
+      "handover_margin_db": 3.0,
+      "time_to_trigger_s": 0.16
+    }
+  },
+  {
+    "step": 1250,
+    "input_metrics": {
+      "avg_load": 0.0,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.51808542238105,
+      "avg_latency_ms": 144.90578426874794,
+      "rlf_rate": 0.0,
+      "rsrp": -105.3863009693829
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.LOW",
+      "reliability": "ReliabilityState.WARNING",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "BALANCED",
+    "reasoning": "Rule-based: Conditions normal.",
+    "shield_active": false,
+    "applied_params": {
+      "handover_margin_db": 3.0,
+      "time_to_trigger_s": 0.16
+    }
+  },
+  {
+    "step": 1300,
+    "input_metrics": {
+      "avg_load": 0.0,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.4851181611987,
+      "avg_latency_ms": 131.86904472934427,
+      "rlf_rate": 0.0,
+      "rsrp": -114.89524345044052
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.LOW",
+      "reliability": "ReliabilityState.DANGER",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "SURVIVAL",
+    "reasoning": "Rule-based: Reliability DANGER detected.",
+    "shield_active": false,
+    "applied_params": {
+      "handover_margin_db": 0.0,
+      "time_to_trigger_s": 0.0
+    }
+  },
+  {
+    "step": 1350,
+    "input_metrics": {
+      "avg_load": 0.0,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.46090919806166,
+      "avg_latency_ms": 96.83585254820737,
+      "rlf_rate": 0.0,
+      "rsrp": -109.80986844724183
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.LOW",
+      "reliability": "ReliabilityState.WARNING",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "SURVIVAL",
+    "reasoning": "Rule-based: Conditions normal.",
+    "shield_active": true,
+    "applied_params": {
+      "handover_margin_db": 0.0,
+      "time_to_trigger_s": 0.0
+    }
+  },
+  {
+    "step": 1400,
+    "input_metrics": {
+      "avg_load": 0.0,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.4329652060715,
+      "avg_latency_ms": 111.77596796059555,
+      "rlf_rate": 0.0,
+      "rsrp": -112.54995132208654
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.LOW",
+      "reliability": "ReliabilityState.DANGER",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "SURVIVAL",
+    "reasoning": "Rule-based: Reliability DANGER detected.",
+    "shield_active": false,
+    "applied_params": {
+      "handover_margin_db": 0.0,
+      "time_to_trigger_s": 0.0
+    }
+  },
+  {
+    "step": 1450,
+    "input_metrics": {
+      "avg_load": 0.0,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.40426435598887,
+      "avg_latency_ms": 114.80340033058914,
+      "rlf_rate": 0.0,
+      "rsrp": -110.91905086192466
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.LOW",
+      "reliability": "ReliabilityState.DANGER",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "SURVIVAL",
+    "reasoning": "Rule-based: Reliability DANGER detected.",
+    "shield_active": false,
+    "applied_params": {
+      "handover_margin_db": 0.0,
+      "time_to_trigger_s": 0.0
+    }
+  },
+  {
+    "step": 1500,
+    "input_metrics": {
+      "avg_load": 0.0,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.3375117571933,
+      "avg_latency_ms": 267.01039518234325,
+      "rlf_rate": 0.0,
+      "rsrp": -108.23084473494265
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.LOW",
+      "reliability": "ReliabilityState.WARNING",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "BALANCED",
+    "reasoning": "Rule-based: Conditions normal.",
+    "shield_active": false,
+    "applied_params": {
+      "handover_margin_db": 3.0,
+      "time_to_trigger_s": 0.16
+    }
+  },
+  {
+    "step": 1550,
+    "input_metrics": {
+      "avg_load": 0.0,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.3210077357244,
+      "avg_latency_ms": 66.01608587556737,
+      "rlf_rate": 0.0,
+      "rsrp": -109.98332316528972
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.LOW",
+      "reliability": "ReliabilityState.WARNING",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "BALANCED",
+    "reasoning": "Rule-based: Conditions normal.",
+    "shield_active": false,
+    "applied_params": {
+      "handover_margin_db": 3.0,
+      "time_to_trigger_s": 0.16
+    }
+  },
+  {
+    "step": 1600,
+    "input_metrics": {
+      "avg_load": 0.0,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.29905457427904,
+      "avg_latency_ms": 87.81264578142613,
+      "rlf_rate": 0.0,
+      "rsrp": -107.82728225861973
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.LOW",
+      "reliability": "ReliabilityState.WARNING",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "BALANCED",
+    "reasoning": "Rule-based: Conditions normal.",
+    "shield_active": false,
+    "applied_params": {
+      "handover_margin_db": 3.0,
+      "time_to_trigger_s": 0.16
+    }
+  },
+  {
+    "step": 1650,
+    "input_metrics": {
+      "avg_load": 0.0,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.27578615574252,
+      "avg_latency_ms": 93.07367414605498,
+      "rlf_rate": 0.0,
+      "rsrp": -109.21686914277768
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.LOW",
+      "reliability": "ReliabilityState.WARNING",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "BALANCED",
+    "reasoning": "Rule-based: Conditions normal.",
+    "shield_active": false,
+    "applied_params": {
+      "handover_margin_db": 3.0,
+      "time_to_trigger_s": 0.16
+    }
+  },
+  {
+    "step": 1700,
+    "input_metrics": {
+      "avg_load": 0.0,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.25574640579548,
+      "avg_latency_ms": 80.15899978817575,
+      "rlf_rate": 0.0,
+      "rsrp": -108.20275018259245
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.LOW",
+      "reliability": "ReliabilityState.WARNING",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "BALANCED",
+    "reasoning": "Rule-based: Conditions normal.",
+    "shield_active": false,
+    "applied_params": {
+      "handover_margin_db": 3.0,
+      "time_to_trigger_s": 0.16
+    }
+  },
+  {
+    "step": 1750,
+    "input_metrics": {
+      "avg_load": 0.0,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.24991572047878,
+      "avg_latency_ms": 23.322741266792203,
+      "rlf_rate": 0.0,
+      "rsrp": -107.80914761674268
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.LOW",
+      "reliability": "ReliabilityState.SAFE",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "BALANCED",
+    "reasoning": "Rule-based: Conditions normal.",
+    "shield_active": false,
+    "applied_params": {
+      "handover_margin_db": 3.0,
+      "time_to_trigger_s": 0.16
+    }
+  },
+  {
+    "step": 1800,
+    "input_metrics": {
+      "avg_load": 0.0,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.23380264089064,
+      "avg_latency_ms": 64.45231835253261,
+      "rlf_rate": 0.0,
+      "rsrp": -106.82462305287481
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.LOW",
+      "reliability": "ReliabilityState.WARNING",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "BALANCED",
+    "reasoning": "Rule-based: Conditions normal.",
+    "shield_active": false,
+    "applied_params": {
+      "handover_margin_db": 3.0,
+      "time_to_trigger_s": 0.16
+    }
+  },
+  {
+    "step": 1850,
+    "input_metrics": {
+      "avg_load": 0.0,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.18404144867014,
+      "avg_latency_ms": 199.04476888199687,
+      "rlf_rate": 0.0,
+      "rsrp": -103.18512017918772
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.LOW",
+      "reliability": "ReliabilityState.WARNING",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "BALANCED",
+    "reasoning": "Rule-based: Conditions normal.",
+    "shield_active": false,
+    "applied_params": {
+      "handover_margin_db": 3.0,
+      "time_to_trigger_s": 0.16
+    }
+  },
+  {
+    "step": 1900,
+    "input_metrics": {
+      "avg_load": 0.0,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.17693395158702,
+      "avg_latency_ms": 28.429988332461843,
+      "rlf_rate": 0.0,
+      "rsrp": -104.67874969031125
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.LOW",
+      "reliability": "ReliabilityState.SAFE",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "BALANCED",
+    "reasoning": "Rule-based: Conditions normal.",
+    "shield_active": false,
+    "applied_params": {
+      "handover_margin_db": 3.0,
+      "time_to_trigger_s": 0.16
+    }
+  },
+  {
+    "step": 1950,
+    "input_metrics": {
+      "avg_load": 0.0,
+      "avg_velocity_kmh": 0.0,
+      "ue_battery_percent": 99.14444765337191,
+      "avg_latency_ms": 129.94519286047134,
+      "rlf_rate": 0.0,
+      "rsrp": -106.54842444995654
+    },
+    "symbolic_state": {
+      "traffic": "TrafficState.LOW",
+      "reliability": "ReliabilityState.WARNING",
+      "energy": "EnergyState.NORMAL",
+      "mobility": "MobilityState.STATIC"
+    },
+    "proposed_mode": "BALANCED",
+    "reasoning": "Rule-based: Conditions normal.",
+    "shield_active": false,
+    "applied_params": {
+      "handover_margin_db": 3.0,
+      "time_to_trigger_s": 0.16
+    }
+  }
+]

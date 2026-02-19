@@ -1,0 +1,34 @@
+---
+config:
+  theme: mc
+  layout: dagre
+---
+flowchart TB
+ subgraph System_1["Tier 1: Tactical Control (10ms)"]
+        Sim["5G Network Simulation"]
+        MEC["MEC Agent (PPO)"]
+        HO["Handover Agent (PPO)"]
+  end
+ subgraph System_2["Tier 2: Strategic Orchestration (LangGraph)"]
+        Estimator("Symbolic Estimator")
+        Strategist("LLM Strategist")
+        Shield("Safety Shield")
+        Configurator("Param Configurator")
+  end
+    Sim -- State --> MEC & HO
+    MEC -- Offloading Action --> Sim
+    HO -- Cell Selection --> Sim
+    Estimator -- Symbolic State --> Strategist
+    Strategist -- Proposed Strategy --> Shield
+    Shield -- Verified Strategy --> Configurator
+    Sim -. Aggregated Metrics (5s) .-> Estimator
+    Configurator -. Updated Weights & Constraints .-> MEC
+    Configurator -. Updated Hysteresis .-> HO
+
+     MEC:::ai
+     HO:::ai
+     Strategist:::ai
+    classDef minimal fill:#fff,stroke:#333,stroke-width:1px
+    classDef ai fill:#d4edda,stroke:#28a745,stroke-width:2px
+    style System_1 fill:#e6f3ff,stroke:#333,stroke-width:2px
+    style System_2 fill:#f9f9f9,stroke:#333,stroke-width:4px
